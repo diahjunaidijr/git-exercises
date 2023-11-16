@@ -1,10 +1,12 @@
 - Soal 1:
 
 Kita sudah mengetahui bahwa banyaknya user maksimal adalah 100.
+
 Buat sebuah program yang menampilkan teks ‘User ke - 1 … User ke - 100’ pada setiap baris di halaman HTML.
+
 Lakukan FOR LOOP pada Javascript.
 
-<pre>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +25,7 @@ Lakukan FOR LOOP pada Javascript.
 
 </body>
 </html>
-</pre>
+
 
 - Soal 2:
 Lakukan pengulangan menggunakan FOR LOOP untuk melakukan penambahan nilai sebanyak 10 kali.
