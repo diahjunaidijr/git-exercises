@@ -88,7 +88,7 @@ console.log("Modulus 99 % 2 = " + modulus)
 
 
 /*
---------------------------===== Conditional & Loop ==========--------------------------------
+--------------------------===== Conditional ==========--------------------------------
 */
 
 //soal 1
@@ -150,6 +150,7 @@ switch (parseInt(angka)) {
 
 //soal 4
 
+/*
 let arah = prompt("Pilih arah untuk karakter kamu -> up/right/bottom/left: ")
 
 switch (arah.toUpperCase()) {
@@ -168,12 +169,74 @@ switch (arah.toUpperCase()) {
     default:
         console.log('Ga ada piihan dari arah yang kamu input atau kamu typo');
 }
+*/
 
 
+/*
+--------------------------===== Loop ==========--------------------------------
+*/
+
+//soal 1 hanya js logic nya saja
+/*
+for (let user = 1; user <= 100; user++){
+    console.log("user ke- " + user)
+}
+*/
+
+//soal 2
+/*
+let nilai = 0;
+for (let i=0; i<10; i++){
+    nilai += 2;
+    console.log(nilai);
+}
+*/
+
+//soal 3
+
+/*
+for (let i=0; i<=20; i++){
+    if(i % 2 == 0){
+        console.log(i + ": bilangan genap")
+    }else{
+        console.log(i + ": bilangan ganjil")
+    }
+}
+*/
+
+//soal 4
+/*
+let konfirmasi;
+
+let totalPerulanganOk = 0;
+
+do {
+    konfirmasi = prompt("Apakah anda mau mengulangi box confirm?: ");
+    konfirmasi = konfirmasi.toUpperCase();
+    
+    if (konfirmasi == "OK"){
+        totalPerulanganOk++;
+    }
+}
+while (konfirmasi == "OK")
+
+if (konfirmasi == "CANCEL"){
+    console.log("Perulangan sudah dilakukan sebanyak " + totalPerulanganOk + " kali");
+}else{
+    console.log("Konfirmasi bukan dari Pilihan, tolong pilih OK atau Cancel! " + "info: telah melakukan konfirmasi sebelumnya sebanyak: " + totalPerulanganOk)
+}
+*/
 
 
+//soal 5
+/*
+let jawaban;
+do {
+    jawaban = prompt("Sebutkan kepanjangan dari nama IB (format inputan adalah kapitalisasi):  ")
+}
+while(jawaban !== "Impact Byte")
 
-
-
-
-
+if(jawaban === "Impact Byte"){
+    console.log("Selamat jawaban kamu benar!")
+}
+*/
