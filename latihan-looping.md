@@ -41,7 +41,6 @@ Lakukan pengulangan dengan FOR LOOP yang melakukan iterasi dari 0..20.
 Setiap iterasi/pengulangan lakukan pengecekan apakah nilai tersebut ganjil atau genap.
 Tampilkan keterangan ganjil dan genap pada sebuah nilai setiap pengulangan
 
-
 for (let i=0; i<=20; i++){
     if(i % 2 == 0){
         console.log(i + ": bilangan genap")
@@ -55,7 +54,6 @@ Tampilkan sebuah Konfirmasi Pop Up kepada user menggunakan confirm();
 Berikan teks ‘Apakah anda mau mengulang’ pada box confirm
 Jika user memilih ‘OK’ maka program akan terus menampilan pop up yang sama
 Jika user memilih ‘Cancel’ maka program akan menampilkan teks ‘Perulangan sudah dilakukan sebanyak …(jumlah klik OK yang dilakukan user)
-
 
 let konfirmasi;
 
