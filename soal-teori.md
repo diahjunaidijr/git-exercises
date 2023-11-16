@@ -12,7 +12,7 @@ jawaban:
 3. Sebutkan 3 looping yang dapat digunakan dan fungsi masing-masing looping
 jawaban:
 
-1. for: kita tau seberapa banyak perulangan akan dilakukan. Misalnya menyebutkan nama setiap murid di kelas yang di informasikan berjumlah 20.
-2. while/ while do / do while:  kondisi ini untuk kasus dimana kita hanya tau kondisi terpenuhi tanpa harus tau pasti sampai kapan. Misalnya, kita mengambil biskuit dan makan, lakukan itu sampai kenyang. Selagi busa sabun ada di badan kita, kita membasuh sampai busa hilang.
-3. for..in, for..of : jika kita ingin menghitung berapa jumlah isi dari setiap kotak kejutan yang kita beli di olshop. Bisa juga kasir yang mengambil barang keranjang belanjaan kita dan menghitung jumlah belanjaan.
-4. (Tambahan) nested loop: loop dalam loop biasanya ini sudah termasuk kompleks dan sederhananya bisa diibaratkan looping pertama adalah baris sementara looping kedua adalah kolom.
+    1. for: kita tau seberapa banyak perulangan akan dilakukan. Misalnya menyebutkan nama setiap murid di kelas yang di informasikan berjumlah 20.
+    2. while/ while do / do while:  kondisi ini untuk kasus dimana kita hanya tau kondisi terpenuhi tanpa harus tau pasti sampai kapan. Misalnya, kita mengambil biskuit dan makan, lakukan itu sampai kenyang. Selagi busa sabun ada di badan kita, kita membasuh sampai busa hilang.
+    3. for..in, for..of : jika kita ingin menghitung berapa jumlah isi dari setiap kotak kejutan yang kita beli di olshop. Bisa juga kasir yang mengambil barang keranjang belanjaan kita dan menghitung jumlah belanjaan.
+    4. (Tambahan) nested loop: loop dalam loop biasanya ini sudah termasuk kompleks dan sederhananya bisa diibaratkan looping pertama adalah baris sementara looping kedua adalah kolom.
