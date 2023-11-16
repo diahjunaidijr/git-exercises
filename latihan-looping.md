@@ -5,7 +5,6 @@ Buat sebuah program yang menampilkan teks ‘User ke - 1 … User ke - 100’ pa
 Lakukan FOR LOOP pada Javascript.
 
 <pre>
-```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +23,6 @@ Lakukan FOR LOOP pada Javascript.
 
 </body>
 </html>
-```
 </pre>
 
 - Soal 2:
