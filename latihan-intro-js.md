@@ -1,4 +1,4 @@
-//soal 1:
+-soal 1:
 
 console.log('Clara');
 console.log('DKI Jakarta');
@@ -7,7 +7,7 @@ console.log(18);
 console.log('Web Developer Jr.');
 
 
-//soal 2
+-soal 2
 
 let name = prompt('Username: ');
 let country = prompt('Country: ');
@@ -21,7 +21,7 @@ if (validation == 'Y') {
 }
 
 
-//soal 3
+-soal 3
 
 console.log('Clara'); // nama kamu
 console.log('DKI Jakarta'); //asal daerah kamu
@@ -30,7 +30,7 @@ console.log(18); // umur kamu
 console.log('Web Developer Jr.'); //pekerjaan kamu atau status
 
 
-//soal 4
+-soal 4
 /*
 -----FORM DATA DIRI SINGKAT----
 
@@ -52,7 +52,7 @@ if (validation == 'Y') {
 ---------------END----------------
 */
 
-//soal 5
+-soal 5
 
 let nama = 'Clara' 
 let asalDaerah = 'Jakarta' 
@@ -68,7 +68,7 @@ console.log('Pekerjaan: ' + pekerjaan);
 
 
 
-//soal 6
+-soal 6
 
 let penjumlahan = 25 + 10;
 let perkalian = 100 * 2
