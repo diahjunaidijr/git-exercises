@@ -1,4 +1,10 @@
 -soal 1:
+Console log data diri
+Nama
+Asal daerah
+Tanggal lahir
+Umur
+Posisi pekerjaan
 
 console.log('Clara');
 console.log('DKI Jakarta');
@@ -8,6 +14,13 @@ console.log('Web Developer Jr.');
 
 
 -soal 2
+Membuat interaksi kepada user
+Prompt data berikut:
+Nama user
+Asal Negara
+Confirm data user. Apakah data yang diisi sudah benar?
+Alert “Terima kasih sudah mengisi form”
+
 
 let name = prompt('Username: ');
 let country = prompt('Country: ');
@@ -22,6 +35,7 @@ if (validation == 'Y') {
 
 
 -soal 3
+Berikan single comments pada setiap baris data diri yang ada pada soal nomor 1
 
 console.log('Clara'); // nama kamu
 console.log('DKI Jakarta'); //asal daerah kamu
@@ -31,6 +45,8 @@ console.log('Web Developer Jr.'); //pekerjaan kamu atau status
 
 
 -soal 4
+Berikan multiple comments pada fitur soal nomor 2
+
 /*
 -----FORM DATA DIRI SINGKAT----
 
@@ -53,6 +69,7 @@ if (validation == 'Y') {
 */
 
 -soal 5
+ Buat variabel untuk menampung data diri yang telah dibuat pada nomor 1. Lalu panggil dan tampilkan dengan menggunakan console log
 
 let nama = 'Clara' 
 let asalDaerah = 'Jakarta' 
@@ -69,6 +86,11 @@ console.log('Pekerjaan: ' + pekerjaan);
 
 
 -soal 6
+Lakukan operasi matematika berikut. Simpan hasil pada sebuah variabel untuk masing-masing operasi.
+25 + 10
+100 * 2
+99 / 2
+99 % 2
 
 let penjumlahan = 25 + 10;
 let perkalian = 100 * 2
