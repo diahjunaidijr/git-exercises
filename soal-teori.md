@@ -7,9 +7,11 @@ jawaban:
 looping->  skenario yang dilakukan berulang-ulang sesuai dengan kondisi yang diberikan. Misalnya melakukan belanja bulanan setiap akhir bulan. Jika sudah melaksanakan belanja bulanan sesuai jadwalnya maka tidak belanja sampai ketemu lagi akhir bulan depan.
 
 Kapan harus menggunakan looping?
+jawaban:
 ->ketika kita ingin melakukan aksi berulang kali agar tujuan dari kondisi tercapai.
 
 Sebutkan 3 looping yang dapat digunakan dan fungsi masing-masing looping
+jawaban:
 -> for: kit tau seberapa banyak perulangan akan dilakukan. Misalnya menyebutkan nama setiap murid di kelas yang di informasikan berjumlah 20.
 -> while/ while do / do while:  kondisi ini untuk kasus dimana kita hanya tau kondisi terpenuhi tanpa harus tau pasti sampai kapan. Misalnya, kita mengambil biskuit dan makan, lakukan itu sampai kenyang. Selagi busa sabun ada di badan kita, kita membasuh sampai busa hilang.
 -> for..in, for..of : jika kita ingin menghitung berapa jumlah isi dari setiap kotak kejutan yang kita beli di olshop. Bisa juga kasir yang mengambil barang keranjang belanjaan kita dan menghitung jumlah belanjaan.
