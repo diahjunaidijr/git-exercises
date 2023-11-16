@@ -78,4 +78,3 @@ console.log("Penjumlahan 25 + 10 = " + penjumlahan)
 console.log("Perkalian 100 * 2 = " + perkalian)
 console.log("Pembagian 99 / 2 = " + pembagian)
 console.log("Modulus 99 % 2 = " + modulus)
-

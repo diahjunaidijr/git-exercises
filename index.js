@@ -1,6 +1,10 @@
 // Online Javascript Editor for free
 // Write, Edit and Run your Javascript code using JS Online Compiler
 
+/*
+-------------------------========= Intro JS Basic ===============-------------------
+*/
+
 //soal 1
 /*
 console.log('Clara');
@@ -71,7 +75,7 @@ console.log('Pekerjaan: ' + pekerjaan);
 
 
 //soal 6
-
+/*
 let penjumlahan = 25 + 10;
 let perkalian = 100 * 2
 let pembagian = 99 / 2 //pembagian biasa yang bisa menghasilkan pecahan juga
@@ -80,11 +84,90 @@ console.log("Penjumlahan 25 + 10 = " + penjumlahan)
 console.log("Perkalian 100 * 2 = " + perkalian)
 console.log("Pembagian 99 / 2 = " + pembagian)
 console.log("Modulus 99 % 2 = " + modulus)
+*/
 
 
+/*
+--------------------------===== Conditional & Loop ==========--------------------------------
+*/
 
+//soal 1
+/*
+nama = prompt('Masukkan nama kamu: ')
+role = prompt('Masukkan posisi role kamu (Frontend/Backend): ')
+if (role == "Frontend" || role == "FRONTEND"){
+    console.log("Tugas kamu sebagai " + role + " adalah merancang dan memastikan UI/UX Web" + ", " + nama)
+}else if (role == "Backend" || role == "BACKEND"){
+    console.log("Tugas kamu sebagai " + role + " adalah merancang dan memelihara keperluan sistem" + ", " + nama)
+}else{
+    console.log("Tugas kamu sebagai " + role + " bukan bagian dari tim saat ini. Mungkin coba tanya tim lain" + ", " + nama)
+}
+*/
 
+//soal 2
+/*
+let a = parseFloat(prompt("Masukkan nilai a: "));
+let b = parseFloat(prompt("Masukkan nilai b: "));
+if (a === b) {
+    console.log("a bernilai sama dengan b")
+}else if (a > b) {
+    console.log("a bernilai lebih besar dari b")
+}else{
+    console.log("a bernilai lebih kecil dari b")
+}
+*/
 
+//soal 3
+/*
+let angka = prompt("Masukkan angka: ");
+
+switch (parseInt(angka)) {
+    case 1:
+        console.log('Kamu pilih Senin');
+        break;
+    case 2:
+        console.log('Kamu pilih Selasa');
+        break;
+    case 3:
+        console.log('Kamu pilih Rabu');
+        break;
+    case 4:
+        console.log('Kamu pilih Kamis');
+        break;
+    case 5:
+        console.log("Kamu pilih Jum'at");
+        break;
+    case 6:
+        console.log('Kamu pilih Sabtu');
+        break;
+    case 7:
+        console.log('Kamu pilih Minggu');
+        break;
+    default:
+        console.log('Ga ada piihan dari angka yang kamu input');
+}
+*/
+
+//soal 4
+
+let arah = prompt("Pilih arah untuk karakter kamu -> up/right/bottom/left: ")
+
+switch (arah.toUpperCase()) {
+    case "UP":
+        console.log("karakter berjalan ke atas");
+        break;
+    case "BOTTOM":
+        console.log("karakter berjalan ke bawah");
+        break;
+    case "LEFT":
+        console.log('karakter berjalan ke kiri');
+        break;
+    case "RIGHT":
+        console.log('karakter berjalan ke kanan');
+        break;
+    default:
+        console.log('Ga ada piihan dari arah yang kamu input atau kamu typo');
+}
 
 
 
