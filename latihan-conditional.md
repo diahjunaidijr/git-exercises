@@ -66,6 +66,7 @@ Hari minggu dimulai dari angka 1 dan seterusnya
 
 Soal nomor 4:  
 Gunakan switch case untuk membuat sebuah game sederhana.  
+
 + UP -> Karakter berjalan keatas  
 + RIGHT -> Karakter berjalan kekanan  
 + BOTTOM -> Karakter berjalan kebawah  
