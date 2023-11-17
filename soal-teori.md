@@ -1,7 +1,7 @@
 1. Apa perbedaan dari procedural, conditional, dan looping?
 jawaban:
 
-- procedural: tahapan konkrit dari langkah-langkah untuk menyelesaikan task/case/challenge. Misalnya prosedur pemasangan meja belajar portable secara lengkap beserta instruksi tools. Sedikit berbeda dari algoritma yang merupakan dasar dari peracangan langkah-langkah masalah. Jadi algoritma itu mengkonsepkan langkah secara logis sementara procedural itu melakukan aksi konkrit dari algoritma
+- procedural: tahapan konkrit dari langkah-langkah untuk menyelesaikan task/case/challenge. Misalnya prosedur pemasangan meja belajar portable secara lengkap beserta instruksi tools. Sedikit berbeda dari algoritma yang merupakan dasar dari perancangan langkah-langkah masalah. Jadi algoritma itu mengkonsepkan langkah secara logis sementara procedural itu melakukan aksi konkrit dari algoritma
 - conditional: skenario dalam mengambil keputusan yang diantara ya atau tidak. Misalnya jika perut lapar apakah ingin makan sekarang? Jika iya maka pergi beli makanan jika tidak maka bisa memberikan kondisi atur jadwal untuk makan.
 - looping:  skenario yang dilakukan berulang-ulang sesuai dengan kondisi yang diberikan. Misalnya melakukan belanja bulanan setiap akhir bulan. Jika sudah melaksanakan belanja bulanan sesuai jadwalnya maka tidak belanja sampai ketemu lagi akhir bulan depan.
 
