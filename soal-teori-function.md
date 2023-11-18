@@ -12,9 +12,9 @@ jawaban:
         function buatRoti (jenisRoti = "Mousse"){
             return 'Membuat roti: ' + jenisRoti;
         }
-        console.log(buatRoti('Taart')); //output: Taart
-        console.log(buatRoti()); //output: Mousse  
-        
+        console.log(buatRoti('Taart')); //output: Membuat roti: Taart
+        console.log(buatRoti()); //output: Membuat roti: Taart
+
 - Apa itu arrow function?  
 jawaban:  
 cara singkat menulis fungsi yang dipopulerkan oleh ES6.  
@@ -35,4 +35,4 @@ jawaban:
 saya bisa menjelaskan dengan analogi toko roti. Di toko roti tersebut setiap kali pelanggan datang ingin membeli, mereka pasti ingin dilayani dengan diberikan roti yang sesuai keinginan mereka. Pelayan cukup melakukan layanan sesuai dengan fungsi dia menjadi pelayan (function) dimana dia harus mencocokan info dari pelanggan (argument) yang sesuai dengan layanan di toko tersebut misalnya jenis roti dan jumlah (parameter). Pelayan cukup mengetahui 1 hal pasti bahwa dia harus memberi apa yang diminta yakni jenis roti dan jumlah. Nah disini itu disebut return (mengembalikan nilai). Artinya pelayan menyiapkan, membuat, atau mengantarkan permintaan lalu jika pelayan ingin memberikan pelayan akan memanggil pelanggan (console.log contohnya) agar pelanggan dapat mengetahui dan mengambil pesanannya.  
 
 singkatnya:  
-Dalam analogi ini, pelanggan (pemanggil fungsi -> const pelanggan) meminta layanan dengan memberikan informasi yang dibutuhkan (argument -> pesanRoti(argument)), dan kemudian pelayan (fungsi -> (pesanRoti(parameter))) mengembalikan hasil layanan (return value -> return parameter dan console.log(pelanggan)) kepada pelanggan untuk digunakan atau dikonsumsi.
+Dalam analogi ini, pelanggan (pemanggil fungsi -> const pelanggan) meminta layanan dengan memberikan informasi yang dibutuhkan (argument -> pesanRoti(argument)), dan kemudian pelayan (fungsi -> (pesanRoti(parameter))) mengembalikan hasil layanan (return value -> return parameter dan console.log(pelanggan)) kepada pelanggan untuk digunakan atau dikonsumsi.  
