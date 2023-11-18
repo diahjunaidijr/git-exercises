@@ -5,6 +5,6 @@ Keterangan:
 
 - TUGAS BASIC FUNCTION  
 
-- Soal Nomor 5 untuk buat Tampilan Soal Nomor 1:  
+- Soal Nomor 5 untuk buat Tampilan Soal Nomor 1 - Info Pembeli:  
 
 ![Alt text](gambar1.png)
