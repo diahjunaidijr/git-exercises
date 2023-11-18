@@ -7,12 +7,14 @@ jadi kita gak perlu repot-repot membuat kodingan per input yang ternyata masih m
 jawaban:  
 -parameter adalah variabel untuk menerima inputan ketika fungsi dijalankan. Seperti halnya cetakan yang menerima adonan untuk di bake.  
 -argument adalah nilai sebagai syarat agar fungsi dapat dieksekusi sesuai parameter. Seperti adonan yang dicetak sesuai cetakan agar bisa di bake. Jumlah argument harus sama dengan jumlah paramter.  
---Ada juga yang tidak selalu membutuhkan argument yakni default parameter. Misal:
+--Ada juga yang tidak selalu membutuhkan argument yakni default parameter. Misal:  
+
         function buatRoti (jenisRoti = "Mousse"){
             return 'Membuat roti: ' + jenisRoti;
         }
         console.log(buatRoti('Taart')); //output: Taart
-        console.log(buatRoti()); //output: Mousse
+        console.log(buatRoti()); //output: Mousse  
+        
 - Apa itu arrow function?  
 jawaban:  
 cara singkat menulis fungsi yang dipopulerkan oleh ES6.  
