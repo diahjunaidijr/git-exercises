@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      #result {
+        margin-top: 20px;
+      }
+
+      button {
+        padding: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+    </style>
+    <title>Konversi Suhu</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Konversi Suhu</h1>
+      <div id="result"></div>
+      <button onclick="convertToFahrenheit()">Konversi ke Fahrenheit</button>
+      <button onclick="convertToCelsius()">Konversi ke Celsius</button>
+
+      <script>
+        function multiplyByNineFifths(number) {
+          return number * (9 / 5);
+        }
+
+        function getCelsius(fahrenheit) {
+          return (fahrenheit - 32) * (5 / 9);
+        }
+
+        function getFahrenheit(celsius) {
+          return multiplyByNineFifths(celsius) + 32;
+        }
+
+        function displayResult(result) {
+          document.getElementById("result").innerText =
+            "Hasil: " + result + " derajat.";
+        }
+
+        function convertToFahrenheit() {
+          var celsiusValue = 15; // Ganti dengan nilai Celsius yang diinginkan
+          var fahrenheitResult = getFahrenheit(celsiusValue);
+          displayResult(fahrenheitResult);
+        }
+
+        function convertToCelsius() {
+          var fahrenheitValue = 59; // Ganti dengan nilai Fahrenheit yang diinginkan
+          var celsiusResult = getCelsius(fahrenheitValue);
+          displayResult(celsiusResult);
+        }
+      </script>
+    </div>
+  </body>
+</html>
