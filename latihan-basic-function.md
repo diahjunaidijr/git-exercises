@@ -38,22 +38,7 @@ Pada usia 2 tahun, umur kucing adalah 24 kali umur manusia
 Pada usia 3 tahun (> 24 tahun) dan seterusnya umur kucing adalah 4 kali umur manusia. Jadi jika umur kucing saat ini 4 tahun berarti dalam kalendar tahun kucing, umurnya adalah 32 tahun.  
 Buat sebuah ARROW function yang menerima parameter umur kucing berdasarkan perhitungan tahun manusia.  
 jawaban:  
-            const umurKucing = (umur) => {
-                if (umur == 1){
-                    return 'umur kucing: ' + 15 + ' tahun manusia';
-                }else if (umur == 2){
-                    return 'umur kucing: ' + 24 + ' tahun manusia';
-                }else if (umur >=3) {
-                    return 'umur kucing: ' + (24 + (umur - 2) * 4) + ' tahun manusia';
-                }else {
-                    return 'umur tidak boleh <= 0';
-                }
-            }
-            console.log(umurKucing(1));
-            console.log(umurKucing(2));
-            console.log(umurKucing(3));
-            console.log(umurKucing(4));
-            console.log(umurKucing(5));
+
 
 4. Soal 4  
 Buat sebuah function untuk mengubah format semua string menjadi huruf kecil.  
