@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      h1 {
+        color: #00b2ca;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        text-align: center;
+      }
+      #mascott {
+        width: 50%;
+        height: 50%;
+      }
+      #result {
+        font-weight: 2rem;
+        margin-top: 12px;
+        color: #7300ff;
+      }
+      .highlight {
+        color: #ff4500;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    </style>
+    <title>Info Pembeli</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>~ Selamat Datang di Panda Tropical Cafe ~</h1>
+      <img
+        id="mascott"
+        src="https://img.freepik.com/premium-vector/panda-summer-sea-illustration_80802-1386.jpg"
+        alt="panda-tropical-mascott"
+      />
+      <div id="result"></div>
+
+      <script>
+        function infoPembeli(nama, produk) {
+          return "Terima kasih " + nama + " telah membeli produk " + produk;
+        }
+
+        var resultElement = document.getElementById("result");
+
+        var namaText = "Clara";
+        var produkText = "Sparkling Blue Mocktail";
+
+        resultElement.innerHTML = infoPembeli(
+          '<span class="highlight">' + namaText + "</span>",
+          '<span class="highlight">' + produkText + "</span>"
+        );
+      </script>
+    </div>
+  </body>
+</html>
