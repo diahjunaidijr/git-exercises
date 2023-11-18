@@ -89,8 +89,6 @@ Lalu panggil dan tampilkan dengan menggunakan console log
             console.log('Umur: ' + umur);
             console.log('Pekerjaan: ' + pekerjaan);
 
-
-
 - soal 6
 
 Lakukan operasi matematika berikut. Simpan hasil pada sebuah variabel untuk masing-masing operasi.  
