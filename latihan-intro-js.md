@@ -13,7 +13,6 @@ Posisi pekerjaan
             console.log(18);
             console.log('Web Developer Jr.');
 
-
 - Soal 2
 
 Membuat interaksi kepada user.  
@@ -21,8 +20,7 @@ Prompt data berikut:
 Nama user  
 Asal Negara  
 Confirm data user. Apakah data yang diisi sudah benar?  
-Alert “Terima kasih sudah mengisi form”  
-
+Alert "Terima kasih sudah mengisi form"  
 
             let name = prompt('Username: ');
             let country = prompt('Country: ');
@@ -35,7 +33,6 @@ Alert “Terima kasih sudah mengisi form”
                 alert('Invalid input. Please enter either Y or N.');
             }
 
-
 - Soal 3
 
 Berikan single comments pada setiap baris data diri yang ada pada soal nomor 1
@@ -45,7 +42,6 @@ Berikan single comments pada setiap baris data diri yang ada pada soal nomor 1
             console.log(3); // tanggal/bulan kamu saja dalam angka :3
             console.log(18); // umur kamu
             console.log('Web Developer Jr.'); //pekerjaan kamu atau status
-
 
 - Soal 4
 

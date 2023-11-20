@@ -1,4 +1,5 @@
-1. Latihan 1  
+1. Latihan 1
+
 Buat sebuah function untuk toko online kita. Ikuti poin-poin dibawah ini:  
 Function mempunyai 2 parameter yaitu nama pembeli dan produk yang dibeli  
 Function akan mengembalikan nilai "Terima kasih (nama pembeli) telah membeli produk (produk yang dibeli)"  
@@ -10,7 +11,7 @@ jawaban:
         } 
         console.log(infoPembeli('Clara', 'sparkling blue mocktail'))  
 
-2. Latihan 2  
+2.Latihan 2  
 Buat sebuah function helper untuk convert temperatur Celcius ke Fahrenherit dan sebaliknya. Ikuti poin-poin dibawah ini:  
 Buat sebuah function helper lalu gunakan pada function converternya. Seperti contoh dibawah ini. Jadi kita tinggal membuat function helper dan function utama untuk convert fahrenheit ke Celcius  
 jawaban:  
@@ -31,7 +32,7 @@ jawaban:
             console.log(getFahrenheit(15));  // Output: 59
             console.log(getCelsius(59));     // Output: 15
 
-3. Latihan 3  
+3.Latihan 3  
 Kita akan membuat program untuk menghitung umur kucing dalam usia manusia. Poin-poinya adalah:  
 Pada usia 1 tahun, umur kucing adalah 15 kali umur manusia  
 Pada usia 2 tahun, umur kucing adalah 24 kali umur manusia  
@@ -56,8 +57,7 @@ jawaban:
             console.log(umurKucing(4));
             console.log(umurKucing(5));
 
-
-4. Soal 4  
+4.Soal 4  
 Buat sebuah function untuk mengubah format semua string menjadi huruf kecil.  
 Menerima 1 parameter string  
 Gunakan single line block function  
