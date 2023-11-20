@@ -26,28 +26,83 @@
         color: #333;
       }
 
-      #result {
+      p {
         margin-top: 20px;
       }
 
-      button {
-        padding: 10px;
-        margin-top: 10px;
+      .toggle-switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+
+      .toggle-switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .toggle-slider {
+        position: absolute;
         cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        border-radius: 34px;
+        transition: 0.4s;
+      }
+
+      .toggle-slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        border-radius: 50%;
+        transition: 0.4s;
+      }
+
+      input:checked + .toggle-slider {
+        background-color: #2196f3;
+      }
+
+      input:checked + .toggle-slider:before {
+        transform: translateX(26px);
+      }
+
+      .toggle-label {
+        margin-left: 10px;
+        vertical-align: middle;
       }
     </style>
-    <title>Konversi Suhu</title>
+    <title>Suhu Converter</title>
   </head>
   <body>
     <div class="card">
-      <h1>Konversi Suhu</h1>
-      <div id="result"></div>
-      <button onclick="convertToFahrenheit()">Konversi ke Fahrenheit</button>
-      <button onclick="convertToCelsius()">Konversi ke Celsius</button>
+      <h1>Suhu Converter</h1>
+      <p id="temperature">Suhu saat ini: 22 derajat Celsius</p>
+
+      <label class="toggle-switch">
+        <input
+          type="checkbox"
+          id="conversionToggle"
+          onclick="toggleConversion()"
+          checked
+        />
+        <span class="toggle-slider"></span>
+      </label>
+      <span class="toggle-label">Fahrenheit to Celsius</span>
 
       <script>
-        function multiplyByNineFifths(number) {
-          return number * (9 / 5);
+        var celsiusValue = 22; // Suhu awal di Celsius
+
+        function multiplyByNineFifths(celsius) {
+          return celsius * (9 / 5);
         }
 
         function getCelsius(fahrenheit) {
@@ -58,21 +113,33 @@
           return multiplyByNineFifths(celsius) + 32;
         }
 
-        function displayResult(result) {
-          document.getElementById("result").innerText =
-            "Hasil: " + result + " derajat.";
+        function displayTemperature(temperature) {
+          document.getElementById("temperature").innerText =
+            "Suhu saat ini: " + temperature;
+        }
+
+        function toggleConversion() {
+          var conversionToggle = document.getElementById("conversionToggle");
+          if (conversionToggle.checked) {
+            convertToFahrenheit();
+          } else {
+            convertToCelsius();
+          }
         }
 
         function convertToFahrenheit() {
-          var celsiusValue = 15; // Ganti dengan nilai Celsius yang diinginkan
           var fahrenheitResult = getFahrenheit(celsiusValue);
-          displayResult(fahrenheitResult);
+          displayTemperature(fahrenheitResult + " derajat Fahrenheit");
         }
 
         function convertToCelsius() {
-          var fahrenheitValue = 59; // Ganti dengan nilai Fahrenheit yang diinginkan
-          var celsiusResult = getCelsius(fahrenheitValue);
-          displayResult(celsiusResult);
+          var fahrenheitResult = getFahrenheit(celsiusValue);
+          var celsiusResult = getCelsius(fahrenheitResult);
+          displayTemperature(round(celsiusResult) + " derajat Celsius");
+        }
+
+        function round(value) {
+          return Math.round(value * 10) / 10; // Membulatkan menjadi satu desimal
         }
       </script>
     </div>
