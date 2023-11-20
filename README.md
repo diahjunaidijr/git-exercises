@@ -23,3 +23,7 @@ Keterangan:
 - Soal Nomor 5 untuk buat Tampilan Soal Nomor 2 - Konversi Suhu (konversi-suhu.html):
 
 ![Alt text](gambar2.png)
+
+- Soal Nomor 5 untuk buat Tampilan Soal Nomor 3 - Konversi Suhu (umur-kucing.html):  
+
+![Alt text](gambar3.png)
