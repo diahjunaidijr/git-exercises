@@ -1,6 +1,6 @@
 # git-exercises
 
-Latihan Materi Intro Javacript, Conditional, dan Looping - 16 November 2023 (kelas kak Gio)  
+Latihan Materi Intro Javacript, Conditional, Looping dan Function - 16 s.d 17 November 2023 (kelas kak Gio)  
 Keterangan:  
 
 - File index.js : kumpulan source code js dari semua tugas intro Javascript (karena di awal running js di online compiler)  
