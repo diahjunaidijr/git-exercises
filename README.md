@@ -24,6 +24,10 @@ Keterangan:
 
 ![Alt text](gambar2.png)
 
-- Soal Nomor 5 untuk buat Tampilan Soal Nomor 3 - Konversi Suhu (umur-kucing.html):  
+- Soal Nomor 5 untuk buat Tampilan Soal Nomor 3 - Umur Kucing (umur-kucing.html):  
 
 ![Alt text](gambar3.png)
+
+- Soal Nomor 5 untuk buat Tampilan Soal Nomor 4 - Lowercase (lowercase.html):  
+
+![Alt text](gambar4.png)

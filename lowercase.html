@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-image: url("https://img.freepik.com/premium-vector/abc-vector-seamless-pattern-hand-written-letters-alphabet-letters-back-school-pattern_2500-928.jpg");
+        background-size: contain;
+      }
+
+      .card {
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        text-align: center;
+        padding-top: 2rem;
+      }
+
+      input {
+        padding: 10px;
+        font-size: 16px;
+        margin: 0 12px;
+        border-radius: 0.5rem;
+      }
+
+      button {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      #output {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .red {
+        color: red;
+      }
+      button {
+        background-color: rgb(206, 255, 255);
+        border: #fff;
+        border-radius: 1rem;
+        height: 45px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
+      button:hover {
+        background-color: aqua;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transform: translateY(-7px);
+      }
+    </style>
+    <title>Lowercase</title>
+  </head>
+  <body>
+    <div class="card">
+      <label for="inputKata">Masukkan Kata:</label>
+      <input
+        type="text"
+        title="Panjang karakter: min 5 dan max 30"
+        id="inputKata"
+        placeholder="...................."
+        minlength="5"
+        maxlength="30"
+      />
+
+      <button onclick="ubahHuruf()">Ubah Menjadi Huruf Kecil</button>
+
+      <div id="output"></div>
+    </div>
+
+    <script>
+      const hurufKecil = (kata) => kata.toLowerCase();
+
+      function ubahHuruf() {
+        let inputKata = document.getElementById("inputKata").value;
+        let outputElement = document.getElementById("output");
+
+        if (inputKata.length < 5) {
+          outputElement.innerHTML =
+            '<span class="red">Peringatan: Minimal 5 karakter diperlukan!</span>';
+          return; //  jika panjang kurang dari 5
+        }
+
+        let hasil = hurufKecil(inputKata);
+        outputElement.innerHTML = "Hasil: " + hasil;
+      }
+    </script>
+  </body>
+</html>
